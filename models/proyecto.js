@@ -13,7 +13,7 @@ const proyecto_Schema = ({
     },
 
     imagen:{
-        type:Buffer,
+        type:String,
         required:[true, 'La img es requerida'],
     },
 })
