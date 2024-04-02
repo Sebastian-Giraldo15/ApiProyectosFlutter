@@ -1,6 +1,6 @@
 const {response} = require('express')
 
- const Proyecto = require('../models/proyecto')
+const Proyecto = require('../models/proyecto')
 
 const getProyecto = async(req, res) => {
     const proyectos = await Proyecto.find(); //Obtener todos los dococumentos de una coleccion
